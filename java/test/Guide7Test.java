@@ -34,7 +34,7 @@ public class Guide7Test extends SkipRule {
     @Test
     public void exercise_1_c() {
         assertArrayEquals(new int[]{1, 1, 1, 6}, guide7.exercise_1_c(new int[][]{{1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {1, 2, 3}}));
-        assertArrayEquals(new int[]{6, 6}, guide7.exercise_1_c(new int[][]{{1, 1, 1, 1, 1, 1}, {2, 2, 2}}));
+        assertArrayEquals(new int[]{6, 6}, guide7.exercise_1_c(new int[][]{{1, 1, 1, 1, 1, 1}, {2, 2, 2, 0, 0, 0}}));
         assertArrayEquals(new int[]{7, 14, 11, 6, 6}, guide7.exercise_1_c(new int[][]{{1, 2, 4}, {2, 8, 4}, {6, 2, 3}, {1, 2, 3}, {1, 2, 3}}));
     }
 
